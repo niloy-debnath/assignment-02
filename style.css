@@ -44,6 +44,7 @@ img {
   border: none;
   color: white;
   padding: 19px 80px;
+  font-size: 1rem;
 }
 /* -----Nav Styles----- */
 nav {
@@ -78,13 +79,18 @@ nav {
 .banner h1 {
   font-weight: 700;
   font-size: 4em;
+  width: 60%;
 }
 
 .banner p {
+  max-width: 570px;
   font-weight: 400;
   font-size: 1.37rem;
   font-size: 1.37rem;
   color: rgba(0, 0, 0, 0.5);
+}
+.banner img {
+  width: 100%;
 }
 
 .banner span {
@@ -168,5 +174,16 @@ nav {
   .nav-link {
     padding: 0;
     margin: 0;
+  }
+
+  .our-plant-heading {
+    text-align: center;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 14px;
+  }
+  .btn-primary {
+    padding: 10px 5px;
   }
 }
