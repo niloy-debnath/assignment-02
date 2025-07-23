@@ -2,6 +2,12 @@
 body {
   max-width: 1140px;
   margin: 0 auto;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .inter-bold {
@@ -117,9 +123,50 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
-/* -----Responsive Part----- */
-/* @media screen {
-  .nav-link {
+
+/* lover */
+.lover {
+  display: flex;
+  align-items: center;
+}
+/* -----Responsive Part-----  */
+
+@media screen and (max-width: 576px) {
+  .media-query {
     display: none;
   }
-} */
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .banner-left h1 {
+    /* margin: 10px 10px; */
+    margin: 0;
+  }
+  .banner-left {
+    order: 2;
+    /* margin: 20px 10px; */
+    padding: 20px 10px;
+  }
+  .banner-right {
+    order: 1;
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  .nav-right {
+    /* background-color: green; */
+    /* padding-left: 50px; */
+  }
+  .nav-link {
+    padding: 0;
+    margin: 0;
+  }
+}
