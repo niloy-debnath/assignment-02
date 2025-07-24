@@ -157,6 +157,26 @@ nav {
   margin-bottom: 10px;
 }
 
+.image-wrapper {
+  position: relative; /* Needed to position the badge absolutely inside */
+  display: inline-block;
+}
+
+.flower-store {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lover-badge {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: -110px;        
+  right: -110px;      
+}
+
+
 /* ------Latest Deals----- */
 .latest-deal-heading {
   text-align: center;
@@ -372,12 +392,29 @@ footer ul li{
 .footer{
   grid-template-columns: repeat(1,1fr);
   margin-left: 10px;
+  align-items: flex-end;
   
 }
- .footer-ul li{
-  /* margin: 0; */
-  padding-left: 0;
- } 
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-icon {
+    justify-content: flex-start;
+  }
+
+  footer ul {
+    padding-left: 0;  /* ✅ Removes 40px indent */
+    margin-left: 0;
+  }
+
+  .lover-badge{
+    display: none;
+  }
 
  
 }
