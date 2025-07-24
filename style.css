@@ -36,7 +36,6 @@ img {
 .light-text {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  /* font-size: 1.37rem; */
   font-size: 1.37rem;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -84,7 +83,6 @@ nav {
 .banner h1 {
   font-weight: 700;
   font-size: 4em;
-  /* width: 60%; */
 }
 
 .banner p {
@@ -141,7 +139,7 @@ nav {
   gap: 20px;
 }
 
-/* lover */
+/*------ lover------ */
 .lover {
   display: flex;
   align-items: center;
@@ -158,7 +156,7 @@ nav {
 }
 
 .image-wrapper {
-  position: relative; /* Needed to position the badge absolutely inside */
+  position: relative;
   display: inline-block;
 }
 
@@ -201,7 +199,6 @@ h2 {
 }
 
 .collage-1 {
-  /* background-image: url(./assets/deal-bloom.png); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/deal-bloom.png");
   background-repeat: no-repeat;
@@ -216,7 +213,6 @@ h2 {
   height: 206px;
 }
 .collage-2 {
-  /* background-image: url(./assets/deal-zabo.png); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/deal-zabo.png");
   background-repeat: no-repeat;
@@ -226,7 +222,6 @@ h2 {
   gap: 2px;
   justify-content: center;
   align-items: center;
-  /* padding: 20px; */
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 22px;
 }
@@ -242,14 +237,12 @@ h2 {
   align-items: center;
   border-radius: 14px;
   height: 206px;
-  /* background-image: linear-gradient(url(./assets/deal-ana.png)); */
 }
 
 /* ------Join------ */
 .join {
   background-image: linear-gradient(rgba(7, 51, 79, 0.4), rgba(7, 51, 79, 0.4)),
     url("./assets/news-letter-bg.png");
-  /* background-size: cover; */
   height: auto;
   display: flex;
   gap: 0;
@@ -270,7 +263,6 @@ h2 {
 }
 
 .Subscribe {
-  /* display: inline; */
   background-color: #e95a08;
   padding: 1.1rem 3rem;
   color: white;
@@ -322,12 +314,10 @@ footer ul li {
     margin-top: 10px;
   }
   .banner-left h1 {
-    /* margin: 10px 10px; */
     margin: 0;
   }
   .banner-left {
     order: 2;
-    /* margin: 20px 10px; */
     padding: 20px 10px;
   }
   .banner-right {
@@ -342,10 +332,7 @@ footer ul li {
     margin-top: 10px;
     box-sizing: border-box;
   }
-  .nav-right {
-    /* background-color: green; */
-    /* padding-left: 50px; */
-  }
+
   .nav-link {
     padding: 0;
     margin: 0;
