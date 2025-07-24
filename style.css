@@ -236,15 +236,18 @@ nav {
   align-items: center;
   height: 533px;
   margin-top: 100px;
+  width: 100%;
+  margin-bottom: 50px;
 
 }
 
 .join h2{
   color: white;
+  font-size: 3.125rem;
 }
 
 .Subscribe{
-  display: inline;
+  /* display: inline; */
   background-color: #e95a08;
   padding: 1.1rem 3rem;
   color: white;
@@ -259,6 +262,30 @@ nav {
 
 .join-div{
   display: flex;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 50px;
+  align-items: flex-start;
+}
+footer ul li{
+  list-style: none;
+  font-size: 1rem;
+  margin-bottom: 32px;
+}
+.footer-icon{
+  display: flex;
+  width: 100%;
+  gap: 25px;
+}
+.footer-icon img{
+  width: 36px;
+  height: 36px;
+}
+.footer p{
+  max-width: 360px;
 }
 /* -----Responsive Part-----  */
 
@@ -311,10 +338,46 @@ nav {
   .btn-primary {
     padding: 10px 5px;
   }
+  .lover img{
+    width: 100%;
+  }
   .lover {
     flex-direction: column;
     gap: 0;
     margin: 50px 10px;
   }
+
+
+ .join{
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-bottom: 30px;
+  margin-bottom: 50px ;
+  height: 276px;
+ }
+ .join h2{
+  font-size: 1.25rem;
+ }
+
+.join-div .input-email{
+  padding: 0;
+  /* font-size: 0.5rem; */
+}
+
+.join-div .Subscribe{
+  padding: 7px 10px;
+}
+
+.footer{
+  grid-template-columns: repeat(1,1fr);
+  margin-left: 10px;
+  
+}
+ .footer-ul li{
+  /* margin: 0; */
+  padding-left: 0;
+ } 
+
  
 }
